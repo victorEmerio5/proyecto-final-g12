@@ -13,3 +13,11 @@
   height: 100%;
   width: auto;
 }
+
+.cont-texto-intro {
+  width: 100%;
+  font-size: 17px;
+  text-align: center;
+  padding: 38px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
