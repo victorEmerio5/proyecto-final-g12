@@ -1,5 +1,50 @@
+/*estilos generales de la aplicacion*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, 
+body {
+  font-size: 18px;
+  background-color: azure;
+}
+
+/*estilos titulo principal*/
+
 h1 {
   text-align: center;
-  color: red;
+  color: violet;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 939px;
+  font-size: 2.4em;
+  font-weight: 698;
+  line-height: 1.1;
+  margin: 40px 0;
+}
+
+h1:hover {
+  font-size: 3.0em;
+}
+
+/*estilo contenedor App*/
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/*estilos cont-princ*/
+
+.cont-princ {
+  min-height: 599px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }

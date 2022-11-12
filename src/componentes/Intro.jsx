@@ -1,6 +1,7 @@
 import React from 'react';
+import '../hojas-estilos/Intro.css';
 
-//componente Intro
+// componente Intro
 
 function Intro (){
   return(

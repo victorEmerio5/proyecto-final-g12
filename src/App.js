@@ -8,7 +8,9 @@ function App() {
   return (
     <div className="App">
      <h1>SERVICIO DE CITAS DE VETERINARIA</h1>
-     <Intro />
+     <div className='cont-princ'>
+       <Intro />
+     </div>
     </div>
   );
 }

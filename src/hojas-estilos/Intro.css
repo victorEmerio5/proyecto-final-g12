@@ -1,0 +1,15 @@
+.cont-intro {
+  width: 1171px;
+  height: 369px;
+  margin: 10px 10px 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: azure;
+  box-shadow: 0 4px 13px 2px gray;
+}
+
+.img-intro {
+  height: 100%;
+  width: auto;
+}
