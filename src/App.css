@@ -48,3 +48,14 @@ h1:hover {
   align-items: center;
   justify-content: center;
 }
+
+/*estilo cont-cita*/
+
+.cont-cita {
+  width: 600px;
+  min-height: 500px;
+  background-color: #d0d0d4;
+  padding: 24px;
+  margin: 10px;
+  border-radius: 25px;
+}
