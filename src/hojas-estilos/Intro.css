@@ -21,3 +21,14 @@
   padding: 38px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.mision {
+  font-size: 1.4rem;
+  margin: 10px;
+  padding-bottom: 29px;
+}
+
+.texto-mision {
+  font-size: 1.1rem;
+  text-align: justify;
+}
