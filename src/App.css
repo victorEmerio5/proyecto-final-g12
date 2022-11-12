@@ -28,6 +28,13 @@ h1:hover {
   font-size: 3.0em;
 }
 
+h2 {
+  color: #1b1b30;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin: 18px 0;
+}
+
 /*estilo contenedor App*/
 
 .App {
