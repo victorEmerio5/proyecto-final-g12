@@ -1,0 +1,13 @@
+.cita-cont {
+  width: 499px;
+  min-height: 64px;
+  background-color: #1b1b31;
+  margin: 4px 0;
+  padding: 7px 14px 7px 19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
