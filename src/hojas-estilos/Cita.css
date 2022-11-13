@@ -11,3 +11,13 @@
   border: 1px solid white;
   cursor: pointer;
 }
+
+/*estilo cita-texto: overflow-wrap hace saltos de linea si el texto es muy largo*/
+.cita-texto {
+  width: 99%;
+  height: 99%;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
