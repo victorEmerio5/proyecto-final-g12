@@ -10,8 +10,8 @@ function Cita ({ texto }){
       <div className='cita-texto'>
         {texto}
       </div>
-      <div className='cita-icono'>
-        <AiOutlineCloseCircle />
+      <div className='cita-cont-icono'>
+        <AiOutlineCloseCircle className='cita-icono' />
       </div>
     </div>
   );
