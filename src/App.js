@@ -17,7 +17,7 @@ function App() {
      </div>
      <div className='cont-cita'>
       <h2>AGENDAR CITA</h2>
-      <Cita />
+      <Cita texto='cita agendada'/>
      </div>
     </div>
   );

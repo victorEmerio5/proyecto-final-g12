@@ -1,5 +1,6 @@
 import React from "react";
 import '../hojas-estilos/Cita.css';
+import { AiOutlineCloseCircle } from "react-icons/ai";  //AiOutlineCloseCircle es un compónenete de react
 
 //componente Cita
 
@@ -10,7 +11,7 @@ function Cita ({ texto }){
         {texto}
       </div>
       <div className='cita-icono'>
-        eliminarCita
+        <AiOutlineCloseCircle />
       </div>
     </div>
   );
