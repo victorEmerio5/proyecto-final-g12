@@ -27,3 +27,10 @@
   height: 24px;
   margin: 4px;
 }
+
+/*estilo agendada*/
+
+.cita-cont.agendada {
+  background-color: #5a01a4;
+  text-decoration: line-through;
+}
