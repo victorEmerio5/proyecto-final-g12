@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Intro from './componentes/Intro.jsx';
+import Cita from './componentes/Cita.jsx';
 
 //componente principal del programa
 
@@ -16,6 +17,7 @@ function App() {
      </div>
      <div className='cont-cita'>
       <h2>AGENDAR CITA</h2>
+      <Cita />
      </div>
     </div>
   );

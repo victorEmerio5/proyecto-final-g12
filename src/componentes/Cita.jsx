@@ -1,4 +1,5 @@
 import React from "react";
+import '../hojas-estilos/Cita.css';
 
 //componente Cita
 

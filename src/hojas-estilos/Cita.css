@@ -21,3 +21,9 @@
   align-items: center;
   overflow-wrap: anywhere;
 }
+
+.cita-icono {
+  width: 24px;
+  height: 24px;
+  margin: 4px;
+}
