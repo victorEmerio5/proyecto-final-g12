@@ -4,9 +4,9 @@ import { AiOutlineCloseCircle } from "react-icons/ai";  //AiOutlineCloseCircle e
 
 //componente Cita
 
-function Cita ({ texto }){
+function Cita ({ texto, agendada }){
   return (
-    <div className='cita-cont'>
+    <div className={agendada ? 'cita-cont agendada' : 'cita-cont'}>
       <div className='cita-texto'>
         {texto}
       </div>
