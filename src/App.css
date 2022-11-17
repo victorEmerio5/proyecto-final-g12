@@ -15,11 +15,16 @@ body {
 
 h1 {
   text-align: center;
-  color: violet;
+  color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   max-width: 939px;
   font-size: 2.4em;
-  margin: 40px 0;
+  margin: 5px 0;
+}
+
+h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1:hover {
@@ -40,9 +45,13 @@ h1:hover {
 /*estilos cont-princ*/
 
 .cont-princ {
-  min-height: 599px;
+  min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  
 }
+
+/*estilos formulario*/
