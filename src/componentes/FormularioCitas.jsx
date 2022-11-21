@@ -1,12 +1,12 @@
 import React from 'react';
-import './hojas-estilos/FormularioCitas.css';
-//import NavBar from './NavBar';
+import '../hojas-estilos/FormularioCitas.css';
 
-//componente FormatoCitas
+//componente FormularioCitas
 
-const FormatoCitas = () => {
+const FormularioCitas = (props) => {
   return (
     <>
+      <h2> {props.titulo} </h2>
       <form>
         <ul>
           <li className='nomb'>
@@ -38,4 +38,4 @@ const FormatoCitas = () => {
     </>
   );
 }
-export default FormatoCitas;
+export default FormularioCitas;
