@@ -7,30 +7,30 @@ const FormularioCitas = (props) => {
   return (
     <>
       <h2> {props.titulo} </h2>
-      <form>
+      <form className='cita-form'>
         <ul>
-          <li className='nomb'>
+          <li>
             <label htmlFor='nombres'>Nombres:</label> <br/>
-            <input type='text' name='nombres' id='nombres' placeholder='digite sus nombres' size={50} />
+            <input className='nombres-input' type='text' name='texto' placeholder='digite sus nombres' size={50} />
           </li>
 
-          <li className='ape'>
+          <li>
             <label htmlFor='apellidos'>Apellidos:</label> <br/>
-            <input type='text' name='apellidos' id='apellidos' placeholder='digite sus apellidos' size={50} />
+            <input className='ape-input' type='text' name='texto' placeholder='digite sus apellidos' size={50} />
           </li>
             
-          <li className='tel'>
+          <li>
             <label htmlFor='telefono'>Telefono:</label> <br/>
-            <input type='number' name='telefono' id='telefono' placeholder='digite su num telefonico' size={50} />
+            <input className='tel-input' type='number' name='texto' placeholder='digite su num telefonico' size={10} />
           </li>  
             
-          <li className='fech'>
+          <li>
             <label htmlFor='fecha'>Fecha:</label> <br/>
-            <input type='date' name='fecha' id='apellidos' placeholder='digite una fecha' size={15} /> 
+            <input className='fecha-input' type='date' name='texto' id='apellidos' placeholder='digite una fecha' size={8} /> 
           </li>
           
-          <li className='boton'>
-            <button className='boton' type='submit'>ENVIAR</button>
+          <li>
+            <button className='enviar-boton' type='submit'>ENVIAR</button>
           </li>
           
         </ul>
