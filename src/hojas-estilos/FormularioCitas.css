@@ -18,11 +18,11 @@ form li + li {
   margin-top: 1em;
 }
 
-.boton {
+.form-boton {
   cursor: pointer;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.boton:hover {
+.form-boton:hover {
   font-size: larger;
 }

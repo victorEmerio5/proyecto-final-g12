@@ -1,13 +1,12 @@
 import React from 'react';
 import FormularioCitas from './FormularioCitas';
 
+
 const Tramites = () => {
   return (
     <>
       <div className='tramites'>
-        <FormularioCitas titulo='Agendar cita:'/>
-        <FormularioCitas titulo='Cancelar cita:'/>
-        <FormularioCitas titulo='Consultar cita:'/>
+        <FormularioCitas formTitulo='Agendar cita:' tituloBoton='Agendar' />
       </div>
     </>
   );
