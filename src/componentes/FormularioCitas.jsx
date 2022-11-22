@@ -3,17 +3,23 @@ import '../hojas-estilos/FormularioCitas.css';
 import { useState } from 'react';
 
 //componente FormularioCitas, recibimos props usando desestructuracion
-//onChange es un eventListener
+//onChange y onSubmit son eventListener
+//target.value extrae el valor ingresado por el usuario
+//preventDefault evita que se cargue toda la aplicacion cuando enviamos el formulario
 
 const FormularioCitas = ({formTitulo, tituloBoton, id, texto}) => {
   const [input, setInput] = useState('');
-  const manejarCambio = env => {
+  const manejarCambio = evento => {
     console.log('escribiendo...');
+    setInput (evento.target.value);
+    console.log(evento.target.value);
   };
   const manejarEnvio = env => {
+    env.preventDefault();
+    console.log('enviando formulario...');
     const citaNueva = {
       id: '432',
-      texto:''
+      texto:input
     }
   };
 
@@ -21,7 +27,7 @@ const FormularioCitas = ({formTitulo, tituloBoton, id, texto}) => {
     <>
       <h2> {formTitulo} </h2>
       <div className='cont-form'>
-        <form className='cita-form'>
+        <form className='cita-form' onSubmit={manejarEnvio}>
           <ul>
             <li>
               <label htmlFor='nombres'>Nombres:</label> <br/>
