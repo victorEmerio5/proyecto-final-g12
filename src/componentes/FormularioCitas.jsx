@@ -1,26 +1,46 @@
 import React from 'react';
 import '../hojas-estilos/FormularioCitas.css';
 import { useState } from 'react';
+import {v4 as uuidv4} from 'uuid'; //uuid genera un id automatico para cada cita lo asignamos al id
 
 //componente FormularioCitas, recibimos props usando desestructuracion
 //onChange y onSubmit son eventListener
 //target.value extrae el valor ingresado por el usuario
 //preventDefault evita que se cargue toda la aplicacion cuando enviamos el formulario
 
-const FormularioCitas = ({formTitulo, tituloBoton, id, texto}) => {
-  const [input, setInput] = useState('');
-  const manejarCambio = evento => {
-    console.log('escribiendo...');
-    setInput (evento.target.value);
-    console.log(evento.target.value);
+const FormularioCitas = ({formTitulo, tituloBoton}) => {
+
+  const [input1, setInput1] = useState('');
+  const [input2, setInput2] = useState('');
+  const [input3, setInput3] = useState('');
+  const [input4, setInput4] = useState('');
+  
+  const manejarCambio1 = evento => {
+    //console.log('escribiendo...');
+    setInput1 (evento.target.value);
+    //console.log(evento.target.value);
   };
-  const manejarEnvio = env => {
-    env.preventDefault();
+  const manejarCambio2 = evento =>{
+    setInput2(evento.target.value);
+  };
+  const manejarCambio3 = evento =>{
+    setInput3(evento.target.value);
+  };
+  const manejarCambio4 = evento =>{
+    setInput4(evento.target.value);
+  };
+  
+  const manejarEnvio = evento => {
+    evento.preventDefault();
     console.log('enviando formulario...');
     const citaNueva = {
-      id: '432',
-      texto:input
+      id: uuidv4(),
+      nombres:input1,
+      apellidos:input2,
+      telefono:input3,
+      fecha:input4
     }
+    console.log(citaNueva);
   };
 
   return (
@@ -31,22 +51,22 @@ const FormularioCitas = ({formTitulo, tituloBoton, id, texto}) => {
           <ul>
             <li>
               <label htmlFor='nombres'>Nombres:</label> <br/>
-              <input className='nombres-input' type='text' name='texto' placeholder='digite sus nombres' size={50} onChange={manejarCambio} />
+              <input id='input1' className='nombres-input' type='text' name='nombres' placeholder='digite sus nombres' size={50} onChange={manejarCambio1} />
             </li>
 
             <li>
               <label htmlFor='apellidos'>Apellidos:</label> <br/>
-              <input className='ape-input' type='text' name='texto' placeholder='digite sus apellidos' size={50} onChange={manejarCambio} />
+              <input id='input2' className='ape-input' type='text' name='apellidos' placeholder='digite sus apellidos' size={50} onChange={manejarCambio2} />
             </li>
               
             <li>
               <label htmlFor='telefono'>Telefono:</label> <br/>
-              <input className='tel-input' type='number' name='texto' placeholder='digite su num telefonico' size={10} onChange={manejarCambio} />
+              <input id='input3' className='tel-input' type='number' name='telefono' placeholder='digite su num telefonico' size={10} onChange={manejarCambio3} />
             </li>  
               
             <li>
               <label htmlFor='fecha'>Fecha:</label> <br/>
-              <input className='fecha-input' type='date' name='texto' id='apellidos' placeholder='digite una fecha' size={8} onChange={manejarCambio} /> 
+              <input id='input4' className='fecha-input' type='date' name='fecha' placeholder='digite una fecha' size={8} onChange={manejarCambio4} /> 
             </li>
             
             <li>
