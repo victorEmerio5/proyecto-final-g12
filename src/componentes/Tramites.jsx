@@ -7,6 +7,10 @@ const Tramites = () => {
     <>
       <div className='tramites'>
         <FormularioCitas formTitulo='Agendar cita:' tituloBoton='Agendar' />
+        <hr/>
+        <FormularioCitas formTitulo='Cancelar cita:' tituloBoton='Cancelar' />
+        <hr/>
+        <FormularioCitas formTitulo='consultar cita:' tituloBoton='Consultar' />
       </div>
     </>
   );
