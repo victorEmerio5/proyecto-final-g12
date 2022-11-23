@@ -6,6 +6,7 @@ const Tramites = () => {
   return (
     <>
       <div className='tramites'>
+        <hr/>
         <FormularioCitas formTitulo='Agendar cita:' tituloBoton='Agendar' />
         <hr/>
         <FormularioCitas formTitulo='Cancelar cita:' tituloBoton='Cancelar' />

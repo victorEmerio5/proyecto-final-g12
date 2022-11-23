@@ -34,7 +34,7 @@ h1:hover {
 /*estilo contenedor App*/
 
 .App {
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -45,7 +45,7 @@ h1:hover {
 /*estilos cont-princ*/
 
 .cont-princ {
-  min-height: 100vh;
+  min-height: 380px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
