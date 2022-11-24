@@ -1,8 +1,10 @@
 import React from 'react';
+import '../hojas-estilos/LogIn.css';
 
 const LogIn = ( {tituloBoton} ) => {
   return (
     <>
+      <hr></hr>
       <h2>LogIn</h2>
       <div className='cont-login'>
         <form>
@@ -19,14 +21,11 @@ const LogIn = ( {tituloBoton} ) => {
               
             <li>
               <label htmlFor='contraseña'>Contraseña:</label> <br/>
-              <input className='contraseña-input' type='text' name='telefono' placeholder='digite su contraseña' size={8}  />
+              <input className='contraseña-input' type='text' name='contraseña' placeholder='digite su contraseña' size={15}  />
             </li>
             <li>
-              <button className='boton-sign-in' type='submit' > {tituloBoton} </button>
-            </li>
-            <li>
-              <button className='boton-sign-up' type='submit' > {tituloBoton} </button>
-            </li>  
+              <button className='boton-iniciarCesion' type='submit' > {tituloBoton} </button>
+            </li> 
           </ul>
         </form>
       </div>

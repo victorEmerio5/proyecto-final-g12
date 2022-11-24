@@ -1,0 +1,10 @@
+/*estilos del boton iniciar cesion*/
+
+.boton-iniciarCesion {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton-iniciarCesion:hover {
+  cursor: pointer;
+  font-size: larger;
+}

@@ -7,6 +7,7 @@ import Layout from './componentes/Layout.jsx';
 import Home from './componentes/Home.jsx';
 import NoPage from './componentes/NoPage.jsx';
 import Tramites from './componentes/Tramites.jsx';
+import LogIn from './componentes/LogIn';
 
 //componente NavBar: es la barra de navegacion de nuestra pagina
 
@@ -17,6 +18,7 @@ export default function NavBar () {
           <Route path='/' element={<Layout />}>
             <Route index element={<Home />} />
             <Route path='tramites' element={<Tramites />} />
+            <Route path='LogIn' element={<LogIn tituloBoton='Iniciar Cesion' />} />
             <Route path='*' element={<NoPage />}/>
           </Route>
         </Routes>
