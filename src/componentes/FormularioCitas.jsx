@@ -70,7 +70,7 @@ const FormularioCitas = ({formTitulo, tituloBoton}) => {
             </li>
             
             <li>
-              <button className='form-boton' type='submit'> {tituloBoton} </button>
+              <button className='form-boton' type='submit' > {tituloBoton} </button>
             </li>
             
           </ul>

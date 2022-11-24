@@ -1,7 +1,6 @@
 import React from 'react';
 import FormularioCitas from './FormularioCitas';
 
-
 const Tramites = () => {
   return (
     <>

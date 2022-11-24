@@ -1,5 +1,8 @@
 import React from 'react';
 import {Outlet, Link} from 'react-router-dom';
+import { AiFillHome } from "react-icons/ai";  //icono react
+import { AiOutlineSchedule } from "react-icons/ai";  //icono react
+
 
 //Layout va de la mano con index.js
 
@@ -10,10 +13,10 @@ const Layout = () => {
         <nav>
           <ul>
             <li>
-              <Link to='/'>Home</Link>
+              <Link to='/'>Home {<AiFillHome />}</Link>
             </li>
             <li>
-              <Link to='/tramites'>Tramites</Link>
+              <Link to='/tramites'>Tramites {<AiOutlineSchedule />} </Link>
             </li>
           </ul>
         </nav>
