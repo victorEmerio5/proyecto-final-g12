@@ -17,10 +17,10 @@ const Layout = () => {
               <Link to='/'>Home {<AiFillHome />}</Link>
             </li>
             <li>
-              <Link to='/tramites'>Tramites {<AiOutlineSchedule />} </Link>
+              <Link to='/login'>LogIn {<AiOutlineUser />} </Link>
             </li>
             <li>
-              <Link to='/login'>LogIn {<AiOutlineUser />} </Link>
+              <Link to='/tramites'>Tramites {<AiOutlineSchedule />} </Link>
             </li>
           </ul>
         </nav>
