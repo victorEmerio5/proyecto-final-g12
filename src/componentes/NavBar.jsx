@@ -5,9 +5,9 @@ import { AiOutlineSchedule } from "react-icons/ai";  //icono react
 import { AiOutlineUser} from "react-icons/ai";
 
 
-//Layout va de la mano con index.js
+//NavBar va de la mano con index.js
 
-const Layout = () => {
+const NavBar = () => {
   return (
     <>
       <div className='cont-navBar'>
@@ -31,4 +31,4 @@ const Layout = () => {
   );
 };
 
-export default Layout;
+export default NavBar;
