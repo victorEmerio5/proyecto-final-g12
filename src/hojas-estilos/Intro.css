@@ -1,11 +1,10 @@
 .cont-intro {
   width: 1171px;
-  height: 369px;
-  margin: 2px 2px 2px;
+  height: 250px;
+  margin: 0px auto ;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: azure;
   box-shadow: 0 4px 5px 2px gray;
 }
 
@@ -16,9 +15,9 @@
 
 .cont-texto-intro {
   width: 100%;
-  font-size: 17px;
+  font-size: 14px;
   text-align: center;
-  padding: 38px;
+  padding: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 

@@ -15,43 +15,12 @@ body {
 
 h1 {
   text-align: center;
+  justify-content: center;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  max-width: 939px;
-  font-size: 2.4em;
-  margin: 5px 0;
-}
-
-h2 {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 2px 0;
 }
 
 h1:hover {
   font-size: 2.0em;
 }
-
-/*estilo contenedor App*/
-
-.App {
-  min-height: 70vh;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-/*estilos cont-princ*/
-
-.cont-princ {
-  min-height: 380px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  
-}
-
-/*estilos formulario*/

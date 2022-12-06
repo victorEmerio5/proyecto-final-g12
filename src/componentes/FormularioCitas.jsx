@@ -1,6 +1,6 @@
 import React from 'react';
 import '../hojas-estilos/FormularioCitas.css';
-import { useState } from 'react';
+import { useState } from 'react';  //useState para los hooks
 import {v4 as uuidv4} from 'uuid'; //uuid genera un id automatico para cada cita lo asignamos al id
 
 //componente FormularioCitas, recibimos props usando desestructuracion

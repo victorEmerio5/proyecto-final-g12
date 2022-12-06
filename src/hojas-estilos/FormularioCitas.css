@@ -1,13 +1,13 @@
-/*estilo formulario*/
+/*estilo cont-form*/
 
-.cita-form {
+.cont-form {
+  width: 1171px;
+  height: 250px;
+  margin: 0px auto;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  padding: 1em;
-} 
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 
 ul {
   margin: 0;

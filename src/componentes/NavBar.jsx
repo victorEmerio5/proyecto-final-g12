@@ -3,6 +3,7 @@ import {Outlet, Link} from 'react-router-dom';
 import { AiFillHome } from "react-icons/ai";  //icono react
 import { AiOutlineSchedule } from "react-icons/ai";  //icono react
 import { AiOutlineUser} from "react-icons/ai";
+import '../hojas-estilos/NavBar.css';
 
 
 //NavBar va de la mano con index.js

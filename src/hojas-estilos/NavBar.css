@@ -1,0 +1,8 @@
+.cont-navBar {
+  width: 1171px;
+  height: 80px;
+  margin: 0px auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
