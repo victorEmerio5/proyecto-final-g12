@@ -4,13 +4,10 @@ import FormularioCitas from './FormularioCitas';
 const Tramites = () => {
   return (
     <>
-      <div className='tramites'>
+      <div className='cont-tramites'>
         <hr/>
-        <FormularioCitas formTitulo='Agendar cita:' tituloBoton='Agendar' />
+        <FormularioCitas formTitulo='Qué deseas hacer hoy?' />
         <hr/>
-        <FormularioCitas formTitulo='Cancelar cita:' tituloBoton='Cancelar' />
-        <hr/>
-        <FormularioCitas formTitulo='consultar cita:' tituloBoton='Consultar' />
       </div>
     </>
   );

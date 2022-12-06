@@ -1,7 +1,8 @@
 /*estilos cont-home*/
+/*vh hace que el contenedor ocupe toda la pantalla*/
 
 .cont-home {
-  min-height: 70vh;
+  min-height: 50vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -12,7 +13,7 @@
 /*estilos cont-princ*/
 
 .cont-princ {
-  min-height: 380px;
+  min-height: 300px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;

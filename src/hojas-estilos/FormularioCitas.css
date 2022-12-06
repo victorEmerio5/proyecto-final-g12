@@ -1,12 +1,25 @@
+/*estilo cont-general*/
+
+.cont-general {
+  width: 1171px;
+  height: 328px;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 /*estilo cont-form*/
 
 .cont-form {
   width: 1171px;
-  height: 250px;
+  height: 320px;
   margin: 0px auto;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 ul {
@@ -25,4 +38,20 @@ form li + li {
 
 .form-boton:hover {
   font-size: larger;
+}
+
+/*estilos para el contenedor de los botones del formulario de citas*/
+
+.cont-botones-form {
+  font-family: 'Times New Roman', Times, serif;
+  width: 1171px;
+  height: 15px;
+  margin: 10px auto;
+  padding: 20px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
 }

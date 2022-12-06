@@ -8,7 +8,7 @@ import {v4 as uuidv4} from 'uuid'; //uuid genera un id automatico para cada cita
 //target.value extrae el valor ingresado por el usuario
 //preventDefault evita que se cargue toda la aplicacion cuando enviamos el formulario
 
-const FormularioCitas = ({formTitulo, tituloBoton}) => {
+const FormularioCitas = ({formTitulo}) => {
 
   const [input1, setInput1] = useState('');
   const [input2, setInput2] = useState('');
@@ -46,35 +46,38 @@ const FormularioCitas = ({formTitulo, tituloBoton}) => {
   return (
     <>
       <h2> {formTitulo} </h2>
-      <div className='cont-form'>
-        <form className='cita-form' onSubmit={manejarEnvio}>
-          <ul>
-            <li>
-              <label htmlFor='nombres'>Nombres:</label> <br/>
-              <input id='input1' className='nombres-input' type='text' name='nombres' placeholder='digite sus nombres' size={50} onChange={manejarCambio1} />
-            </li>
+      <div className='cont-general'>
+        <div className='cont-form'>
+          <form className='cita-form' onSubmit={manejarEnvio}>
+            <ul>
+              <li>
+                <label htmlFor='nombres'>Nombres:</label> <br/>
+                <input id='input1' className='nombres-input' type='text' name='nombres' placeholder='digite sus nombres' required size={50} onChange={manejarCambio1} />
+              </li>
 
-            <li>
-              <label htmlFor='apellidos'>Apellidos:</label> <br/>
-              <input id='input2' className='ape-input' type='text' name='apellidos' placeholder='digite sus apellidos' size={50} onChange={manejarCambio2} />
-            </li>
-              
-            <li>
-              <label htmlFor='telefono'>Telefono:</label> <br/>
-              <input id='input3' className='tel-input' type='number' name='telefono' placeholder='digite su num telefonico' size={10} onChange={manejarCambio3} />
-            </li>  
-              
-            <li>
-              <label htmlFor='fecha'>Fecha:</label> <br/>
-              <input id='input4' className='fecha-input' type='date' name='fecha' placeholder='digite una fecha' size={8} onChange={manejarCambio4} /> 
-            </li>
-            
-            <li>
-              <button className='form-boton' type='submit' > {tituloBoton} </button>
-            </li>
-            
-          </ul>
-        </form>
+              <li>
+                <label htmlFor='apellidos'>Apellidos:</label> <br/>
+                <input id='input2' className='ape-input' type='text' name='apellidos' placeholder='digite sus apellidos' required size={50} onChange={manejarCambio2} />
+              </li>
+                
+              <li>
+                <label htmlFor='telefono'>Telefono:</label> <br/>
+                <input id='input3' className='tel-input' type='number' name='telefono' placeholder='digite su num telefonico' required size={10} onChange={manejarCambio3} />
+              </li>  
+                
+              <li>
+                <label htmlFor='fecha'>Fecha:</label> <br/>
+                <input id='input4' className='fecha-input' type='date' name='fecha' placeholder='digite una fecha' required size={8} onChange={manejarCambio4} /> 
+              </li>
+
+            </ul>
+            <div className='cont-botones-form'>
+              <button className='form-boton' type='submit' > Agendar Cita </button>
+              <button className='form-boton' type='submit' > Consultar Cita </button>
+              <button className='form-boton' type='submit' > Cancelar Cita </button>
+            </div>
+          </form>
+        </div>
       </div>
     </>
   );

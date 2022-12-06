@@ -4,7 +4,7 @@ import '../hojas-estilos/Home.css';
 
 const Home = () => {
   return (
-    <div>
+    <>
       <div className='cont-home'>
         <div className='cont-princ'>
           <Intro 
@@ -14,7 +14,7 @@ const Home = () => {
         </div>
       </div>
       <h2>Bienvenido!</h2>
-    </div>
+    </>
   );
 };
 

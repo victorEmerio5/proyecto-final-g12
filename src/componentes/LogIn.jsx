@@ -41,17 +41,17 @@ const LogIn = ( {tituloBoton} ) => {
           <ul>
             <li>
               <label htmlFor='nombres'>Nombres:</label> <br/>
-              <input className='nombres-input' type='text' name='nombres' placeholder='digite sus nombres' size={50} onChange={manejCambio1} />
+              <input className='nombres-input' type='text' name='nombres' placeholder='digite sus nombres' required size={50} onChange={manejCambio1} />
             </li>
 
             <li>
               <label htmlFor='apellidos'>Apellidos:</label> <br/>
-              <input className='apellidos-input' type='text' name='apellidos' placeholder='digite sus apellidos' size={50} onChange={manejCambio2}   />
+              <input className='apellidos-input' type='text' name='apellidos' placeholder='digite sus apellidos' required size={50} onChange={manejCambio2}   />
             </li>
               
             <li>
               <label htmlFor='contraseña'>Contraseña:</label> <br/>
-              <input className='contraseña-input' type='password' name='contraseña' placeholder='digite su contraseña' size={10} onChange={manejCambio3} />
+              <input className='contraseña-input' type='password' name='contraseña' placeholder='digite su contraseña' required size={15} onChange={manejCambio3} />
             </li>
             <li>
               <button className='boton-iniciarCesion' type='submit' > {tituloBoton} </button>
