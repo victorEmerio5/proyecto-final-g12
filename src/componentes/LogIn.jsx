@@ -2,6 +2,8 @@ import React from 'react';
 import '../hojas-estilos/LogIn.css';
 import { useState } from 'react'; //hook
 
+//componente LonIn:
+
 const LogIn = ( {tituloBoton} ) => {
 
   const [input1, setInput1] = useState('');
