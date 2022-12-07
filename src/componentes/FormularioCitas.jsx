@@ -75,6 +75,7 @@ const FormularioCitas = ({formTitulo}) => {
               <button className='form-boton' type='submit' > Agendar Cita </button>
               <button className='form-boton' type='submit' > Consultar Cita </button>
               <button className='form-boton' type='submit' > Cancelar Cita </button>
+              <button className='form-boton' type='reset'>Limpiar Formulario</button>
             </div>
           </form>
         </div>

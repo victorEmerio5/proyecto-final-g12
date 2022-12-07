@@ -8,8 +8,7 @@ function App() {
     <>
       <div className="App">
         <h1>SERVICIO DE CITAS DE VETERINARIA</h1>
-      </div>
-      <hr/> 
+      </div> 
     </>  
   );
 }

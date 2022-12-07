@@ -7,7 +7,6 @@ const Tramites = () => {
       <div className='cont-tramites'>
         <hr/>
         <FormularioCitas formTitulo='Qué deseas hacer hoy?' />
-        <hr/>
       </div>
     </>
   );

@@ -53,9 +53,10 @@ const LogIn = ( {tituloBoton} ) => {
               <label htmlFor='contraseña'>Contraseña:</label> <br/>
               <input className='contraseña-input' type='password' name='contraseña' placeholder='digite su contraseña' required size={15} onChange={manejCambio3} />
             </li>
-            <li>
+            <div className='cont-botones'>
               <button className='boton-iniciarCesion' type='submit' > {tituloBoton} </button>
-            </li> 
+              <button className='boton-reset' type='reset'> Limpiar Formulario</button>
+            </div> 
           </ul>
         </form>
       </div>

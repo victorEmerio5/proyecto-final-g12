@@ -1,10 +1,19 @@
 /*estilos del boton iniciar cesion*/
 
-.boton-iniciarCesion {
+.boton-iniciarCesion, boton-reset {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton-reset {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .boton-iniciarCesion:hover {
+  cursor: pointer;
+  font-size: larger;
+}
+
+.boton-reset:hover {
   cursor: pointer;
   font-size: larger;
 }
@@ -16,4 +25,14 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+}
+
+.cont-botones {
+  width: 1171px;
+  height: 30px;
+  margin: 5px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
